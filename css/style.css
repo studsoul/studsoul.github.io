@@ -640,9 +640,10 @@ section.project .card-wrapper .card img{
 }
 @media (max-width:576px){
     section.about .aboutmeimg{
-        width: 220px;
-        height: 210px;
+        width: 230px;
+        height: 250px;
         margin-top: -20px;
+        margin-left:-40px;
     }
     section.about h1{
         
@@ -656,8 +657,8 @@ section.project .card-wrapper .card img{
         margin-top: 15px;
     }
     section.about p{
-        margin-left: -539px;
-        margin-right: 229px;
+        margin-left: -532px;
+        margin-right: 259px;
         margin-top: -10px;
     }
     section.about .social{
