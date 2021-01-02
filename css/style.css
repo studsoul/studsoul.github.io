@@ -744,4 +744,8 @@ section.project .card-wrapper .card img{
         margin-right:-30px;
         margin-top:-6px;
 }
+    .section-heading+p{
+        margin-left: -40px;
+        margin-right: -40px;
+    }
  
