@@ -669,7 +669,7 @@ section.project .card-wrapper .card img{
     section.services .card-box {
         grid-template-columns: repeat(1, 1fr);
         width: 260px;
-        margin-left: -36px;
+        margin-left: -46px;
     }
     section .project-heading {
         margin-top: 4rem;
@@ -739,5 +739,9 @@ section.project .card-wrapper .card img{
     section.services{
         margin-top: 0px;
     }
+    section .project-heading+p{
+        margin-left:-70px;
+        margin-right:-30px;
+        margin-top:-6px;
 }
  
