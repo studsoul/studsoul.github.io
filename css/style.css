@@ -673,7 +673,7 @@ section.project .card-wrapper .card img{
     }
     section .project-heading {
         margin-top: 4rem;
-        margin-left: 0px;
+        
     }
     section.project .card-wrapper {
         grid-template-columns: repeat(1, 1fr);
