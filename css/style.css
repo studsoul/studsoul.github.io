@@ -643,22 +643,22 @@ section.project .card-wrapper .card img{
         width: 230px;
         height: 250px;
         margin-top: -20px;
-        margin-left:-40px;
+        margin-left:7px;
     }
     section.about h1{
         
             
-            margin-left: -455px;
+            margin-left: -433px;
             margin-top: 450px;
         
     }
     section.about h3{
-        margin-left: -449px;
+        margin-left: -429px;
         margin-top: 15px;
     }
     section.about p{
-        margin-left: -532px;
-        margin-right: 259px;
+        margin-left: -489px;
+        margin-right: 219px;
         margin-top: -10px;
     }
     section.about .social{
@@ -669,7 +669,7 @@ section.project .card-wrapper .card img{
     section.services .card-box {
         grid-template-columns: repeat(1, 1fr);
         width: 260px;
-        margin-left: -46px;
+        margin-left: -6px;
     }
     section .project-heading {
         margin-top: 4rem;
@@ -682,13 +682,14 @@ section.project .card-wrapper .card img{
     }
     section .wrapper img {
         width: 35%;
-        margin-left: -40px;
+        margin-left: -9px;
+        margin-top:-44px;
     }
     section .wrapper .skill-area{
         width: 43%;
         margin-bottom: -260px;
         height: 80%;
-        margin-left: -50px;
+        margin-left: -9px;
         float: left;
         padding-top: 10px;
     }
