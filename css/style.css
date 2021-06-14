@@ -4,19 +4,40 @@ body {
     font-family: 'poppins', sans-serif;
     padding:0px;
     margin:0px;
-    overflow-x:hidden;
-}
-html{
-    scroll-behavior: smooth;
-}
 
-@media (max-width: 576px)
+}
+html, body{    overflow-x:hidden;}
+@media (max-width: 576px){
+section .wrapper .skill-area {
+    height: 70%;
+}
+section.about p {
+    margin-left: -539px;
+    margin-right: 259px;
+    margin-top: -10px;
+}
+section .wrapper .skill-area {
+    height: 70% !important;
+}
+section .project-heading {
+    margin-top: 4rem;
+    margin-left: 0px !important;
+}
+.mobile-nav { 
+    width: 100% !important;
+}
 section .project-heading {
     /* margin-top: 4rem; */
     /* margin-left: 0px; */
     margin: 4rem 0;
     margin-bottom: 2rem;
 }
+}
+#fab {color:white; font-size: 3em;}
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -131,7 +152,7 @@ header nav .left a:hover {
 }
 
 section {
-    padding: 6rem;
+    padding: 4rem;
 }
 
 .about .container .me {
