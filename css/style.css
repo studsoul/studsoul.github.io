@@ -1,5 +1,8 @@
 @import'utilities.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
     font-family: 'poppins', sans-serif;
     padding:0px;
@@ -67,7 +70,8 @@ header nav .left a {
     text-decoration: none;
     color: white;
     margin-right: 2rem;
-    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: all .3s ease;
 }
 

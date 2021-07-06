@@ -64,7 +64,7 @@
                         <div class="text-3">And I'm a <span class="typing"></span>
                         </div>
                         <div>
-                            <button class="btn btn-secondary">Resume</button>
+                           <a href="mailto:vikaskumars@yahoo.com" ><button class="btn btn-secondary">Get in Touch</button></a>
                         </div>
                     </div>
                 </div>
@@ -243,12 +243,22 @@
         <h2 class="project-heading">CONTACT <span>ME</span></h2>
 
         <div class="contact__container bd-grid">
-            <form action="" class="contact__form">
+            <!-- <form action="mail.php" method="post" class="contact__form">
                 <input type="text" placeholder="Name" class="contact__input">
-                <input type="mail" placeholder="Email" class="contact__input" required>
+                <input type="email" placeholder="Email" class="contact__input" required>
                 <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
                 <input type="button" value="SEND" class="contact__button btn btn-primary">
-            </form>
+            </form> -->
+            <form action="mail.php" method="post" class="contact__form">
+                <label for="name"></label>
+                <input type="text"  name="name" placeholder="Name" class="contact__input">
+                <label for="lname"></label>
+                <input type="email"  name="email" placeholder="Email" class="contact__input">
+               
+                <label for="message"></label>
+                <textarea  name="message" placeholder="Your Message" style="height:200px" class="contact__input"></textarea>
+                <input type="submit" value="Submit" class="contact__button btn btn-primary">
+              </form>
         </div>
     </section>
 </main>
